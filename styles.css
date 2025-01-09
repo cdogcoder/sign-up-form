@@ -75,3 +75,14 @@ body {
 }
 
 
+.content-container .bottom-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 36px;
+}
+
+.content-container .bottom-content button {
+    padding: 8px 24px;
+}
+
