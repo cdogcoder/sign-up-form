@@ -7,13 +7,12 @@
 
 body {
     display: flex;
-    height: 100vh;
 }
 
 .background-container {
     width: clamp(250px, 500px, 600px);
     background-image: url(/assets/leaf-background.jpg);
-    background-size: 600px auto;
+    background-size: cover;
     background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
@@ -89,6 +88,7 @@ body {
 .content-container .form-content form {
     display: flex;
     flex-flow: row wrap;
+    gap: 24px;
 }
 
 .content-container .form-content form > p {
@@ -99,5 +99,26 @@ body {
 .content-container .form-content div[class$="column-controls"] {
     display: flex;
     flex-direction: column;
-    border: 2px solid red;
+    gap: 24px;
+    width: 300px;
 }
+
+.content-container .form-content div[class$="-container"] {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.content-container .form-content div[class$="-container"] label {
+    font-size: 1.15rem;
+}
+
+.content-container .form-content div[class$="-container"] input {
+    width: 100%;
+    line-height: 1.5rem; 
+    font-size: 1.15rem;
+    padding: 4px;
+}
+
+
+/* .content-container .form-content  */
