@@ -63,3 +63,15 @@ body {
 .content-container .top-content, .content-container .bottom-content {
     background-color: aliceblue;
 }
+
+
+.content-container .top-content {
+    font-weight: bold;
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 24px;
+}
+
+
