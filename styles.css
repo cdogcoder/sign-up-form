@@ -86,3 +86,18 @@ body {
     padding: 8px 24px;
 }
 
+.content-container .form-content form {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.content-container .form-content form > p {
+    font-size: 36px;
+    width: 100%;
+}
+
+.content-container .form-content div[class$="column-controls"] {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid red;
+}
