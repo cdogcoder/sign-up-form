@@ -23,6 +23,7 @@ body {
 }
 
 .background-container .logo-container {
+    font-family: "norsebold", sans-serif;
     margin-top: 200px;
     display: flex;
     background-color: rgba(0, 0, 0, .4);
