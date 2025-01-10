@@ -99,6 +99,7 @@ body {
     flex-direction: column;
     justify-content: flex-end;
     gap: 24px;
+    z-index: 2;
 }
 
 
@@ -111,6 +112,12 @@ body {
 
 .content-container .bottom-content button {
     padding: 8px 24px;
+}
+
+.content-container .form-content {
+    z-index: 1;
+    border-top: .1px solid rgba(128, 128, 128, 0.1);
+    box-shadow: 2px 2px 10px 5px rgba(0, 0, 0, 0.274);
 }
 
 .content-container .form-content form {
