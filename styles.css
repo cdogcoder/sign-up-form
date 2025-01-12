@@ -152,17 +152,24 @@ body {
     width: 100%;
 }
 
-.content-container .form-content div[class$="column-controls"] {
+/* .content-container .form-content div[class$="column-controls"] {
     display: flex;
     flex-direction: column;
     gap: 16px;
     width: 300px;
+} */
+
+.content-container .form-content div[class$="row-controls"] {
+    display: flex; 
+    flex-flow: row wrap;
+    gap: 24px;
 }
 
 .content-container .form-content div[class$="-container"] {
     display: flex;
     flex-direction: column;
     gap: 8px;
+    width: 250px;
 }
 
 .content-container .form-content div[class$="-container"] label {
