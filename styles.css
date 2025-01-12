@@ -39,7 +39,7 @@ body {
 
 .background-container {
     width: clamp(250px, 500px, 600px);
-    background-image: url(/assets/leaf-background.jpg);
+    background-image: url(/assets/leafbackground.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
